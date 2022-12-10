@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    height: 45px;
+    padding: 6px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(114, 57, 10);
+    
+}
+.header .admin{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header .profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.admin div{
+    display: flex;
+    align-items: center;
+    grid-gap: -71px;
+    gap: 6px;
+}

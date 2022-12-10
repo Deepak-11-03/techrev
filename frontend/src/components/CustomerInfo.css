@@ -1,0 +1,69 @@
+.main{
+  height: 92.5vh;
+  display: flex;
+}
+.main .allCustomers{
+  padding: 3px;
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+}
+.allCustomers .controls{
+  padding: 5px;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  border-bottom: 1px solid;
+}
+
+.allCustomers .contacts{
+  padding: 3px;
+  width: 14rem;
+
+}
+ .allCustomers #search {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+.main .info-box >div{
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+.main .details{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid black;
+  background-color: rgb(216, 158, 120);
+}
+.details .container{
+  height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+.container .profile{
+  padding: 17px 74px;
+}
+.container .profile >div{
+  display: flex;
+  justify-content: space-between;
+}
+.popup{
+   position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background: rgba(165, 165, 165, 0.7);
+}
